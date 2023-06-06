@@ -8,9 +8,8 @@
 
 body, html{
   height: 100%;
-  background: var(--dark-color)
+  background: var(--dark-color);
 }
-
 * > *{
     font-family: 'Poppins', sans-serif;
 }
@@ -19,21 +18,37 @@ body, html{
   display: block;
   position: relative;
   margin: 40px auto;
-  height: auto;
-  width: 800px;
   padding: 20px;
+  background-image: url('/Users/saurabh/Desktop/code/PROJECTS/quiz_app/client/src/styles/images/qm.jpg');
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
 }
 
 .container .title{
     font-size: 3em;
+    font-weight: 700;
     text-align: center;
     border: 5px solid var(--primary-color);
     padding: .3em .2em;
     border-radius: 4px;
+    background: rgba(17, 18, 18, 0.68);
+    border-width: 0px 2px 1px 0px;
+    border-style: solid;
+    border-color: #f4faf4;
+    box-shadow: 0px 19px 41px rgba(0, 0, 0, 0.36);
+    border-radius: 10px;
+    height: 70px;
+    gap: 10px;
+    padding: 10px;
 }
 
 .text-light {
-	color: var(--light-color)
+	color:#f9f9f2
 }
 
 .container ul{
@@ -81,7 +96,7 @@ body, html{
 }
 
 .prev{
-    background-color: #faff5a;
+    background-color: #035429;
     justify-self: flex-start;
 }
 
@@ -120,7 +135,7 @@ ul li:hover label{
 ul li .check{
   display: block;
   position: absolute;
-  border: 5px solid #AAAAAA;
+  border: 5px solid #d31d1d;
   border-radius: 100%;
   height: 25px;
   width: 25px;
